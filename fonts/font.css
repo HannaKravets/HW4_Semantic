@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Righteous";
+  src: url("Righteous-Regular.woff") format("woff"),
+    url("Righteous-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}

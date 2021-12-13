@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Righteous", cursive;
+  background-color: antiquewhite;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+h1 a {
+  color: tomato;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+nav a {
+  color: antiquewhite;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: tomato;
+  text-decoration: underline;
+}
+
+main {
+  margin: 0 15px;
+}
+
+aside {
+  width: 35%;
+  float: right;
+  background-color: linen;
+  margin: 0 15px;
+  padding: 10px;
+}
+
+section {
+  width: 60%;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.ph_artcl {
+  max-width: 100%;
+}
+
+.ph_section {
+  max-width: 100%;
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: linen;
+  border-radius: 5px;
+}
+
+footer {
+  clear: both;
+  background-color: gray;
+  color: antiquewhite;
+  flex: 0 0 auto;
+}
+
+.address {
+  margin-left: 10px;
+  font-style: normal;
+}
+.address a {
+  color: antiquewhite;
+}
